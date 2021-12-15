@@ -1,5 +1,5 @@
 # jw-d2xx
-Simple wrapper for an FTDI DLL to Java JNI
+Simple wrapper for a FTDI DLL to Java JNI
 
 This library provide a simple wrapper for an FTDI DLL to be used in a Java application. This wrapper is another DLL that has functions declarated as required by the Java Native Interface (JNI). To avoid any licesing issue, the original DLL (input) and the resulting DLL to be loaded in the Java application (output) are not included. The repository includes only the C++ code that adjusts the interface, and a SConstructor file to build the DLL.
 - To finish building the project, download the D2XX DLL from FTDI website and add both the static library (.lib) and the header(.h) file to the same folder.
