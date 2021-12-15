@@ -1,0 +1,7 @@
+ftd2xx.h
+ftd2xx.lib
+.sconsign.dblite
+jw_d2xx.dll
+jw_d2xx.exp
+jw_d2xx.lib
+main.obj
